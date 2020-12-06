@@ -1,0 +1,7 @@
+n = int(input("enter"))
+while n<=5:
+    i=1
+    while i<=10:
+        print(n,"x",i,"=",n*i)
+        i = i +1
+    n = n+1
